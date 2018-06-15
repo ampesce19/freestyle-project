@@ -49,6 +49,6 @@ elif winner == "d":
   winning_result = "You are PIZZA!"
   winning_paragraph = "Your are the life of the party. Everyone want a piece of you!"
 else:
-  print ("Congrats you broke my code somehow...you're a PC...")
+  print ("You are JELLO.  You fit in any mold!")
 print (winning_result)
 print (winning_paragraph)
