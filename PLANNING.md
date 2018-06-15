@@ -1,6 +1,7 @@
 # Project Planning
-# ampesce19
-# Freestyle Project
+## ampesce19
+## Freestyle Project
+
 
 ## Problem Statement
 
@@ -10,11 +11,12 @@ A bored individual
 
 ### User Needs Statement 
 
-As someone who is bored, I need a way to keep myself occupied so I can procrastinate my 
+As someone who is bored, I need a way to keep myself occupied so I can procrastinate my current responsibilites and stayed entertained. 
 
 ### As-is Process Description
 
   1. Looking for something to occupy time on the web. 
+  2. Clicking on random articles and websites. 
 
 ### To-be Process Description
 
@@ -38,7 +40,7 @@ As someone who is bored, I need a way to keep myself occupied so I can procrasti
 
 The application does not require any third-party packages, except `pytest` for testing purposes.
 
-The application will use the 'random' module. 
+The application will use the `random` module. 
 
 ### Hardware Requirements
 
