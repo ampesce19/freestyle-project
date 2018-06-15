@@ -18,6 +18,22 @@ ctotal=0
 dtotal=0
 
 #To-do: prompt users for each question and record results 
+#Q1
+print ("Q1:" + questions[0])
+print ("(a)" + a[0])
+print ("(b)" + b[0])
+print ("(c)" + c[0])
+print ("(d)" + d[0])
+answers=input("Enter your answer: ")
+if answers==a or answers=="a":
+  atotal += 1
+elif answers==b or answers=="b":
+  btotal += 1
+elif answers==c or answers=="c":
+  ctotal += 1
+elif answers==d or answers=="d":
+  dtotal += 1
+
 
 #Calculate winner
 best_score = 0
@@ -47,8 +63,10 @@ elif winner == "c":
   winning_paragraph = "You are edgy and trendy. Others look to you for a fun and unique adventure."
 elif winner == "d":
   winning_result = "You are PIZZA!"
-  winning_paragraph = "Your are the life of the party. Everyone want a piece of you!"
+  winning_paragraph = "Your are the life of the party. Everyone wants a piece of you!"
 else:
   print ("You are JELLO.  You fit in any mold!")
+print ("Results:")
+print ("----------")
 print (winning_result)
 print (winning_paragraph)
