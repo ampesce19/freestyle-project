@@ -1,13 +1,13 @@
 # Project Planning
-## ampesce19
-## Freestyle Project
+### ampesce19
+### Freestyle Project
 ##
 
 ## Problem Statement
 
 ### Primary User
 
-A bored individual 
+A bored individual.
 
 ### User Needs Statement 
 
