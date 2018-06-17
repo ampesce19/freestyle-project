@@ -2,9 +2,8 @@
 #freestyle_project
 #quiz 
 
-import random
-
-#a=sandwich (reliable, always there), b=ice cream sundae (sweet, crowd-pleasing), c=sushi (quirky, not for everyone), d= pizza (big personality, life of the party)  
+#notes on response types
+##a=sandwich (reliable, always there), b=ice cream sundae (sweet, crowd-pleasing), c=sushi (quirky, not for everyone), d= pizza (big personality, life of the party)  
 
 questions=["What is your dream job?","Who is your ideal BFF?","What animal are you most like?","What city do you want to move to?","What is your ideal Friday night?","What is your favorite thing to drink?","How often do you try new foods?","Where do you like to shop?"]
 a=["Accountant","Jason Bateman","Cat","Cleveland","Movie night with friends","Water","Never","Department store"]
@@ -40,6 +39,61 @@ print ("(c)" + c[0])
 print ("(d)" + d[0])
 response_count()
 
+#Q2
+print ("Q2:",questions[1])
+print ("(a)", a[1])
+print ("(b)", b[1])
+print ("(c)", c[1])
+print ("(d)", d[1])
+response_count()
+
+#Q3
+print ("Q3:",questions[2])
+print ("(a)", a[2])
+print ("(b)", b[2])
+print ("(c)", c[2])
+print ("(d)", d[2])
+response_count()
+
+#Q4
+print ("Q4:",questions[3])
+print ("(a)", a[3])
+print ("(b)", b[3])
+print ("(c)", c[3])
+print ("(d)", d[3])
+response_count()
+
+#Q5
+print ("Q5:",questions[4])
+print ("(a)", a[4])
+print ("(b)", b[4])
+print ("(c)", c[4])
+print ("(d)", d[4])
+response_count()
+
+#Q6
+print ("Q6:",questions[5])
+print ("(a)", a[5])
+print ("(b)", b[5])
+print ("(c)", c[5])
+print ("(d)", d[5])
+response_count()
+
+#Q7
+print ("Q7:",questions[6])
+print ("(a)", a[6])
+print ("(b)", b[6])
+print ("(c)", c[6])
+print ("(d)", d[6])
+response_count()
+
+#Q8
+print ("Q8:",questions[7])
+print ("(a)", a[7])
+print ("(b)", b[7])
+print ("(c)", c[7])
+print ("(d)", d[7])
+response_count()
 
 #Calculate winner
 best_score = 0
