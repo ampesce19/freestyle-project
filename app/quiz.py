@@ -17,22 +17,28 @@ btotal=0
 ctotal=0
 dtotal=0
 
-#To-do: prompt users for each question and record results 
+def response_count():
+    global atotal, btotal, ctotal, dtotal
+    answers=input("Enter your answer: ")
+    if answers==a or answers=="a" or answers=="A":
+      atotal += 1
+    elif answers==b or answers=="b" or answers=="B":
+      btotal += 1
+    elif answers==c or answers=="c" or answers=="C":
+      ctotal += 1
+    elif answers==d or answers=="d" or answers=="D":
+      dtotal += 1
+    else:
+      print ("Error! Please enter value a-d")
+      quit("Try again.")
+
 #Q1
 print ("Q1:" + questions[0])
 print ("(a)" + a[0])
 print ("(b)" + b[0])
 print ("(c)" + c[0])
 print ("(d)" + d[0])
-answers=input("Enter your answer: ")
-if answers==a or answers=="a":
-  atotal += 1
-elif answers==b or answers=="b":
-  btotal += 1
-elif answers==c or answers=="c":
-  ctotal += 1
-elif answers==d or answers=="d":
-  dtotal += 1
+response_count()
 
 
 #Calculate winner
