@@ -31,4 +31,6 @@ cd freestyle-project/
 pytest 
 ```
 
-## [License](LICENSE.md)
+## Licensee
+
+Please see LICENSE.md file above.
