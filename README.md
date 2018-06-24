@@ -1,5 +1,6 @@
 # freestyle-project
 ## quiz.py
+## "What Food Are you Based on Your Personality?"
 
 This app is simple and fun to use! 
 It prompts users with a series of questions and calculates quiz results based on responses. 
