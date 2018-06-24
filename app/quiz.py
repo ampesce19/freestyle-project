@@ -33,6 +33,9 @@ if __name__ == "__main__":
             print ("Error! Please enter value a-d")
             quit("Try again.")
 
+    print ("What type of food are you based on your personality?")
+    print ("Answer the following questions to find out!")
+    
     #Q1
     print ("Q1:" + questions[0])
     print ("(a)" + a[0])
