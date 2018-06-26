@@ -40,7 +40,7 @@ As someone who is bored, I need a way to keep myself occupied so I can procrasti
 
 The application does not require any third-party packages, except `pytest` for testing purposes.
 
-The application will use the `random` module. 
+The application does not require any modules. 
 
 ### Hardware Requirements
 
